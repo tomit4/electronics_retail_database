@@ -84,10 +84,10 @@ environment. Simply invoke the script:
 ```
 
 Once done, you can connect to the MariaDB database, and source the desired files
-to see the generated reports. First, soure the `insert_more_dummy_data.sql` file
-to populate the database with data relevant to the assignment. Then, invoke the
-following `source` invocations are listed in the order they are presented within
-Assignment 2's prompt:
+to see the generated reports. First, source the `insert_more_dummy_data.sql`
+file to populate the database with data relevant to the assignment. Then, invoke
+the following `source` invocations are listed in the order they are presented
+within Assignment 2's prompt:
 
 ```sql
 source /tmp/insert_more_dummy_data.sql;
@@ -114,7 +114,7 @@ source /tmp/list_avg_price_of_products_per_category.sql;
 ```
 
 ```sql
-source /tmp/join_products_and_supliers.sql;
+source /tmp/join_products_and_suppliers.sql;
 ```
 
 ```sql
@@ -130,5 +130,5 @@ source /tmp/full_outer_join_products_suppliers.sql;
 ```
 
 ```sql
-source /tmp/having_productgs_more_than_10.sql;
+source /tmp/having_products_more_than_10.sql;
 ```
