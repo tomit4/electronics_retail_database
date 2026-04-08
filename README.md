@@ -132,3 +132,54 @@ source /tmp/full_outer_join_products_suppliers.sql;
 ```sql
 source /tmp/having_products_more_than_10.sql;
 ```
+
+## Assignment 3
+
+Assignment 3 requires the use of various `.sql` files to generate reports
+specific to the electronics retail database. For ease of use, a `populate.sh`
+script is provided to copy these scripts into the docker container's
+environment. Simply invoke the script:
+
+```sh
+./populate.sh
+```
+
+Once done, you can connect to the MariaDB database, and source the desired
+files. You can do this by invoking the following `source` invocations as listed
+in the order they are presented within Assignment 3's prompt:
+
+```sql
+source /tmp/calculate_total_sales.sql;
+```
+
+```sql
+source /tmp/format_product_names_supplier_info.sql;
+```
+
+```sql
+source /tmp/list_orders_by_purchase_month.sql;
+```
+
+```sql
+source /tmp/apply_20_percent_discount.sql;
+```
+
+```sql
+source /tmp/view_top_5_products.sql;
+```
+
+```sql
+source /tmp/stored_procedure_total_sold.sql;
+```
+
+```sql
+source /tmp/trigger_log_on_qoh_update.sql;
+```
+
+```sql
+source /tmp/transaction_update_inventory.sql;
+```
+
+```sql
+source /tmp/create_an_index.sql;
+```
